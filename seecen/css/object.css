@@ -1,0 +1,25 @@
+body{
+    background: #EEEEEE;
+}
+.header{
+    margin-top: -20px;
+}
+.top{
+    background: url("../images/bg.jpg");
+    padding: 60px 0;
+    color: #CCCCCC;
+}
+.top p{
+    font-size: 18px;
+}
+.footer{
+    text-align: center;
+    color: #fff;
+    padding: 30px 0;
+    font-size: 12px;
+    background: #666666;
+}
+.footer a,.footer a:hover{
+    color: #fff;
+    text-decoration: none;
+}

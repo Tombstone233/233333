@@ -1,0 +1,80 @@
+.title{
+    margin-top: 30px;
+    text-align: center;
+}
+.title h2{
+    font-size: 26px;
+    color: #0059b2;
+}
+.title p{
+    font-size: 16px;
+    color: #9999b2;
+}
+.text1{
+    width: 65%;
+    display: inline-block;
+}
+.text1 span{
+    font-size: 16px;
+    display: block;
+}
+.other{
+    color: #999999;
+    text-decoration: line-through;
+    font-size: 12px;
+}
+.us{
+    font-size: 12px;
+}
+.text2,.text3{
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+.text2 strong,.text2 span,.text3 strong,.text3 span{
+    display: block;
+}
+.text2 strong,.text3 strong{
+    font-size: 16px;
+}
+.text2 span,.text3 span {
+    font-size: 12px;
+}
+.footer{
+    text-align: center;
+    color: #fff;
+    padding: 30px 0;
+    font-size: 12px;
+    background: #666666;
+}
+.footer a,.footer a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+@media (min-width: 768px) {
+    .text1{
+        width: 80%;
+    }
+    .text1 span{
+        margin-bottom: 20px;
+    }
+    .other{
+        font-size: 14px;
+    }
+    .us{
+        font-size: 14px;
+    }
+    .text2,.text3{
+        padding: 160px 0;
+    }
+    .text2 strong,.text3 strong{
+        font-size: 20px;
+    }
+    .text2 span,.text3 span{
+        font-size: 16px;
+    }
+    .img{
+        margin: 0 auto;
+    }
+}

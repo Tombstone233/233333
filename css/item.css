@@ -1,0 +1,107 @@
+.top{
+    margin-top: 20px;
+}
+.top ul li{
+    display: inline-block;
+    font-size: 12px;
+}
+.top ul li a{
+    color: #000;
+}
+.top ul li a:hover{
+    color: #AA0000;
+    text-decoration: none;
+}
+#content h2{
+    font-size: 18px;
+}
+#content h2 span{
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #a10000;
+}
+#content ul li{
+    display: inline-block;
+    color: #808080;
+}
+#content ul li a,#content ul li  a:hover{
+    color: #808080;
+    text-decoration: none;
+}
+.price{
+    text-align: left;
+}
+.price span,a,a:hover{
+    font-size: 12px;
+    color: #a10000;
+}
+.price strong{
+    font-size: 24px;
+    color: #a10000;
+}
+.color,.size{
+    font-size: 12px;
+}
+.size ul{
+    display: inline-block;
+}
+.size ul li{
+    display: inline-block;
+    border: 1px solid #000;
+    padding: 0 5px;
+    cursor: pointer;
+}
+.bigImg {
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+.bigImg #midimg {
+    width: 400px;
+    height: 400px;
+}
+
+.bigImg #winSelector {
+    width: 235px;
+    height: 210px;
+}
+#winSelector {
+    position: absolute;
+    cursor: crosshair;
+    filter: alpha(opacity=15);
+    -moz-opacity: 0.15;
+    opacity: 0.15;
+    background-color: #000;
+    border: 1px solid #fff;
+}
+#bigView {
+    position: absolute;
+    border: 1px solid #959595;
+    overflow: hidden;
+    z-index: 999;
+}
+#bigView img {
+    position: absolute;
+}
+@media (min-width: 768px) {
+    #content{
+        border-bottom: 1px solid #E5E6E6;
+    }
+    .content{
+        text-align: right;
+        margin-top: 22px;
+    }
+    #content h2 span{
+        margin-left: 10px;
+        display: inline-block;
+    }
+    .item{
+        border-bottom: 1px solid #E5E6E6;
+    }
+    .price{
+        margin-top: 20px;
+    }
+}
